@@ -17,4 +17,4 @@ async def test(inter):
     await inter.reply(embed=embed)
     subprocess.run("起動用.bat", shell=True) #subprocessモジュールでbatを実行させる
 
-summer.run("")
+summer.run("token")
